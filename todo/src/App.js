@@ -3,7 +3,6 @@ import logo from './logo.svg';
 import './App.css';
 import {count,length} from './number.js'
 
-
 function App() {
   return (
     <div className="App">
@@ -23,5 +22,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
