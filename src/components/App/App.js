@@ -6,9 +6,9 @@ import Footer from '../Footer/Footer';
 const App = () => (
   <div>
     <h1>Важные дела:</h1>
-    <InputItem />
-    <ItemList />
-    <Footer />
+      <InputItem />
+      <ItemList />
+      <Footer />
   </div>);
 
 export default App;
