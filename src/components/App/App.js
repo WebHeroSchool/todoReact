@@ -14,6 +14,7 @@ const App = () => {
     {
       value: 'Работать'
     }
+    
   ];
   
   return (
@@ -21,7 +22,8 @@ const App = () => {
     <h1>Важные дела:</h1>
       <InputItem />
       <ItemList items={ items }/>
-      <Footer count={ 3 }/>
+      <Footer count={ items.length }/>
+     
   </div>);
 }
 export default App;
