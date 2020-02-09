@@ -11,7 +11,7 @@ const App = () => {
       isDone: true
     },
     {
-      value: 'Закончить модуль за модулем',
+      value: 'Составить резюме',
       isDone: false
     },
     {
@@ -25,8 +25,7 @@ const App = () => {
     <h1>Важные дела:</h1>
       <InputItem />
       <ItemList items={ items }/>
-      <Footer count={ items.length }/>
-     
+      <Footer count={ items.length }/>  
   </div>);
 }
 export default App;
