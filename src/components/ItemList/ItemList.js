@@ -2,7 +2,7 @@ import React from 'react';
 import Item from '../Item/Item';
 import styles from './ItemList.module.css';
 
-const ItemList = ({ items, onClickDone }) => 
+const ItemList = ({ items, onClickDone, onClickDelite }) => 
 (<ul className={styles.wrap}>
   {items.map(item=>
   <li className={styles.mark} key={item.value}>
@@ -11,7 +11,7 @@ const ItemList = ({ items, onClickDone }) =>
         isDone={item.isDone} 
         id={item.id} 
         onClickDone={onClickDone}
-        
+        onClickDelite={onClickDelite}
       />     
     </li>)}
 </ul>);
